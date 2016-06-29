@@ -106,7 +106,7 @@ $(function () {
         else
             $noButton.hide();
 
-        $("#scene").attr("src", "images/" + currentScene + ".jpg");
+        $("#scene").attr("src", currentScene + ".jpg");
     }
 
     var scene = {
